@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff4e3;
+}
+.anime-image{
+    position: absolute;
+    right:0px ;
+    top: 0px;
+}
+header{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    
+}
+.home{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.setting{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+.news{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+.salutation{
+    color: rgba(88, 3, 3, 0.842);
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    left: 750px;
+}
+.main{
+    font-weight: bold;
+    font-size: 55px;
+    font-family:'Alkatra';
+    
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.home:hover{
+    color: rgba(88, 3, 3, 0.842);
+text-decoration:underline ;
+cursor: pointer;
+}
+.setting:hover{
+    color: rgba(88, 3, 3, 0.842);
+    text-decoration:underline ;
+    cursor: pointer;
+    }
+    .news:hover{
+        color: rgba(88, 3, 3, 0.842);
+        text-decoration:underline ;
+        cursor: pointer;
+        }
+        .description{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            font-weight: 400;
+            color: grey;
+            position: absolute;
+            top: 380px;
+            left: 80px;
+        }
+        .button1{
+            color: rgba(59, 6, 6, 0.842);
+            padding: 8px 10px;
+            background-color: white;
+position: absolute;
+top: 500px;
+left: 200px;
+        }
+        .button1:hover{
+            background-color: rgba(88, 3, 3, 0.842);
+            color: white;
+        }
+        .thanks{
+            color: rgb(180, 10, 10);
+            font-size: 20px;
+            font-weight: 500;
+            position: absolute;
+            left: 160px;
+            top: 600px;
+        }
+        .button2{
+            color: rgba(59, 6, 6, 0.842);
+            padding: 8px 10px;
+            background-color: white;
+position: absolute;
+top: 500px;
+left: 400px;
+        }
+        .button2:hover{
+            background-color: rgba(88, 3, 3, 0.842);
+            color: white;
+        }
